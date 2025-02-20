@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(45deg, #e53935, #f1c40f); /* Gradiente de fundo */
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    flex-direction: column; /* Coloca o conteúdo em coluna */
+}
+
+/* Estilo header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o formulário */
+form {
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Seções do formulário */
+.form-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito de foco nos campos */
+input:focus, select:focus, textarea:focus {
+    border-color: #e53935;
+    box-shadow: 0 0 8px rgba(229, 57, 53, 0.6);
+    outline: none;
+}
+
+/* botão de rádio */
+.radio-group {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* botão de envio */
+button {
+    background-color: #e53935;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* Efeito de hover no botão */
+button:hover {
+    background-color: #c62828;
+    transform: scale(1.05); /* Leve aumento de tamanho no hover */
+}
+
+/* Estilizando os placeholders */
+input::placeholder, textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Estilizando o textarea */
+textarea {
+    height: 150px;
+    resize: vertical; /* Permite que o usuário redimensione o textarea */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    button {
+        padding: 15px;
+        font-size: 1.2rem;
+    }
+}
+
+
+/* Background styles */
+body {
+    background-color: #1e2d2a;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(197.95, 12%, 16%) 0, transparent 55%);
+}
+
+/* Background styles */
+body {
+    background-image: url('https://images.unsplash.com/photo-1625334583355-463900ec13df?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+}
+
